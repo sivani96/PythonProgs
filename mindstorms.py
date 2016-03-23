@@ -9,7 +9,7 @@ def draw_shape():
     window=turtle.Screen()
     window.bgcolor("black")
 
-    boo=turtle.Turtle() #calling init() method of Turtle class
+    boo=turtle.Turtle() 
     boo.shape("turtle")
     boo.speed(3)
     boo.color("green")
@@ -18,22 +18,7 @@ def draw_shape():
         draw_square(boo)
         boo.right(10)
 
-    #andy=turtle.Turtle()
-    #andy.shape("arrow")
-    #andy.speed(3)
-    #andy.color("blue")
-    #andy.circle(50)
 
-    #nimbo=turtle.Turtle()
-    #nimbo.shape("circle")
-    #nimbo.color("red")
-
-    #i=0
-    #while(i<3):
-     #   nimbo.forward(50)
-      #  nimbo.right(120)
-       # i=i+1
-    
 
     window.exitonclick()
     
