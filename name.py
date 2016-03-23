@@ -14,9 +14,6 @@ def draw_name():
     s.right(90)
     s.forward(10)
 
-   # i=turtle.Turtle()
-    #i.down(20)
-
     window.exitonclick()
 
 draw_name()
