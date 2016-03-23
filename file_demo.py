@@ -1,5 +1,5 @@
 import urllib
-
+#to remove curse words
 def read_text():
     quotes=open("C:\Users\Rajeshwar Rao P\Desktop\Shivani\infosys\movie_quotes.txt")
     words=quotes.read()
@@ -10,7 +10,6 @@ def read_text():
 
 def check_profanity(words):
     connection = urllib.urlopen("http://www.wdylike.appspot.com/?q="+words)
-    #http://isithackday.com/arrpi.php?text=   tom cruise pirate language
     output=connection.read()
     print(output)
     connection.close()
