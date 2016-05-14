@@ -3,6 +3,7 @@ def rename_files():
     #1. get file names from folder
     file_list=os.listdir(r"C:\Users\Rajeshwar Rao P\Desktop\Shivani\infosys\prank") #r stands for raw
     print(file_list)
+    #to move the control to the directory prank
     os.chdir(r"C:\Users\Rajeshwar Rao P\Desktop\Shivani\infosys\prank")
     #2. for each file name remove numbers
     for file_name in file_list:
